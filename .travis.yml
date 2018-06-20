@@ -12,4 +12,4 @@ notifications:
 
 script:
   - npm install @azu/github-label-setup -g
-  - github-label-setup --token $GITHUB_TOKEN
+  - github-label-setup --token $GITHUB_TOKEN --labels ./labels.json
