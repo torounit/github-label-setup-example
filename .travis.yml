@@ -8,5 +8,6 @@ notifications:
     on_success: never
     on_failure: change
 
-#script:
-#  - npm install @azu/github-label-setup -g
+script:
+  - npm install @azu/github-label-setup -g
+#  - github-label-setup --token $GITHUB_TOKEN
